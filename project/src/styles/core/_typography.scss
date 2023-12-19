@@ -1,0 +1,16 @@
+@use '../utils' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+h1 {
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 5rem 0;
+	text-align: center;
+	color: $color-primary;
+}
+
+button {
+	font-size: 1.25rem;
+	font-family: 'Roboto', sans-serif;
+}
